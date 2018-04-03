@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+#pannel {
+    width: 800px;
+    height: 400px;
+}
+
+#controls {
+    margin-top: -5px;
+    padding: 4px 0;
+    background-color: gainsboro;
+    width: 720px;
+}
+
+#controls > * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+#progress_bar {
+    width: 290px;
+    background: black;
+}
+
+#current_bar {
+    background: blue;
+    width: 1px;
+    height: 10px;
+}
+
+#time {
+    color: #999;
+    font-size: 12pt;
+}
+
+#current_time {
+    float: left;
+}
+
+#duration {
+    float: right;
+}
+

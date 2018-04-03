@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Документ без названия</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+<section id="pannel">
+    <video id="video_player">
+        <source src="media/vorona.ogv" type="video/ogv; codecs='theora, vorbis'"/>
+        <source src="media/vorona.mp4" tуре="vidеo/mр4; codеcs='аvc1.42Е01Е, mр4а.40.2'"/>
+        <source src="media/vorona.webm" tуре="vidеo/wеbm; codеcs='vр8, vorbis'"/>
+    </video>
+    <section id="controls">
+        <button onclick="playOrPause()"><img src="media/1.png" width="30" height="30" class="paused" alt="playOrPause">
+        </button>
+        <button onclick="stop()"><img src="media/4.png" width="30" height="30" class="paused" alt="stop"></button>
+        <section id="progress_bar">
+            <section id="current_bar"></section>
+        </section>
+        <section id="time">
+            <section id="current_time">00:00</section>
+            /
+            <section id="duration">00:00</section>
+        </section>
+        <button onclick="decreaseVol()"><img src="media/3.png" width="30" height="30" class="paused">
+        </button>
+        <button onclick="increaseVol()"><img src="media/2.png" width="30" height="30" class="paused">
+        </button>
+    </section>
+</section>
+</body>
+</html>
